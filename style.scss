@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+    color: white;
+}
+
+.parallax-tile{
+    .parallax {
+        background-image: url(../images/pexels-stas-knop-1626481.jpg);
+        height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        h1{
+            padding: 200px 18px 18px 18px;
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+            letter-spacing: 10px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.filler{
+    height: 500px;
+}
