@@ -9,8 +9,16 @@
 }
 
 .parallax-tile{
-    .parallax {
+    .one {
         background-image: url(../images/pexels-stas-knop-1626481.jpg);
+    }
+    .two{
+        background-image: url(../images/pexels-emre-can-2110951.jpg);
+    }
+    .three{
+        background-image: url(../images/pexels-sunyu-kim-1294671.jpg);
+    }
+    .parallax {
         height: 500px;
         background-attachment: fixed;
         background-position: center;
@@ -19,7 +27,7 @@
         h1{
             padding: 200px 18px 18px 18px;
             font-family: 'Open Sans', sans-serif;
-            text-align: center;
+            text-align: left;
             letter-spacing: 10px;
             margin: 0 auto;
         }
@@ -27,5 +35,23 @@
 }
 
 .filler{
-    height: 500px;
+    height: 150px;
+}
+
+.sitescontainer{
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    ul{
+        height: fit-content;
+        width: fit-content;
+        list-style: none;
+        display: flex;
+        margin: 0 auto;
+    }
+    li{
+        height: 100px;
+        width: 33%;
+        background-color: blueviolet;
+    }
 }
