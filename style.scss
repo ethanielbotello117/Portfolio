@@ -6,24 +6,17 @@
     box-sizing: border-box;
     font-family: "Inconsolata", monospace;
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .parallax-tile{
-    .one {
-        background-image: url(../images/pexels-stas-knop-1626481.jpg);
-    }
-    .two{
-        background-image: url(../images/pexels-emre-can-2110951.jpg);
-    }
-    .three{
-        background-image: url(../images/pexels-sunyu-kim-1294671.jpg);
-    }
     .parallax {
         height: 500px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        background-image: url(../images/pexels-stas-knop-1626481.jpg);
         h1{
             padding: 200px 18px 18px 18px;
             font-family: 'Open Sans', sans-serif;
@@ -31,27 +24,69 @@
             letter-spacing: 10px;
             margin: 0 auto;
         }
+        }
     }
-}
 
 .filler{
     height: 150px;
+    &.work{
+        text-align: center;
+    }
 }
 
 .sitescontainer{
-    height: 200px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    margin: 0 auto;
-    ul{
+    .boxcontainer{
+        text-decoration: none;
+        width: 25%;
+        height: 200px;
+        overflow: hidden;
+        a{
+            text-decoration: none;
+        }
+        .linkbox{
+            height: 100%;
+            width: 100%;
+            background: url("../images/pexels-sunyu-kim-1294671.jpg");
+            background-size: cover;
+            background-position: center;
+            transition: .5s;
+            .link{
+                width: fit-content;
+                height: fit-content;
+            }
+            h1{
+                opacity: 0%;
+                transition: .2s;
+                padding: 15px;
+                background-color: aqua;
+            }
+            &:hover{
+                height: 110%;
+                width: 110%;
+                h1{
+                    opacity: 90%;
+                }
+            }
+        }
+    }
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .material-icons-filled {
+        text-align: center;
         height: fit-content;
         width: fit-content;
-        list-style: none;
-        display: flex;
-        margin: 0 auto;
+        font-family: 'Material Icons';
+        font-size: 100px;
     }
-    li{
-        height: 100px;
-        width: 33%;
-        background-color: blueviolet;
+    .contact-text{
+        font-size: 20px;
     }
 }
