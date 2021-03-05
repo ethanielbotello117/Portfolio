@@ -185,7 +185,25 @@
   font-size: 20px;
 }
 
-.bg {
+.bg1 {
+  height: 120px;
+  margin: 0 auto;
+  background: url(../images/github.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg2 {
+  height: 120px;
+  margin: 0 auto;
+  background: url(images/);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg3 {
   height: 120px;
   margin: 0 auto;
   background: url(../images/github.png);
