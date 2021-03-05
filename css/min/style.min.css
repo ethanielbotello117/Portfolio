@@ -7,7 +7,7 @@
           box-sizing: border-box;
   font-family: "Inconsolata", monospace;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .parallax-tile .parallax {
@@ -21,7 +21,7 @@
 
 .parallax-tile .parallax h1 {
   padding: 200px 18px 18px 18px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: left;
   letter-spacing: 10px;
   margin: 0 auto;
@@ -64,8 +64,8 @@
   background: url("../images/pexels-sunyu-kim-1294671.jpg");
   background-size: cover;
   background-position: center;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .sitescontainer .boxcontainer .linkbox .link {
@@ -79,8 +79,8 @@
 
 .sitescontainer .boxcontainer .linkbox h1 {
   opacity: 0%;
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   padding: 15px;
   background-color: aqua;
 }
@@ -92,6 +92,70 @@
 
 .sitescontainer .boxcontainer .linkbox:hover h1 {
   opacity: 90%;
+}
+
+#link1 {
+  background: url(../images/link1.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#link2 {
+  background: url(../images/link2.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#link3 {
+  background: url(../images/link3.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#link4 {
+  background: url(../images/link4.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#link5 {
+  background: url(../images/link5.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#link6 {
+  background: url(../images/link6.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#link7 {
+  background: url(../images/link7.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#link8 {
+  background: url(../images/link8.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .contact {
@@ -113,11 +177,20 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-size: 100px;
 }
 
 .contact .contact-text {
   font-size: 20px;
+}
+
+.bg {
+  height: 120px;
+  margin: 0 auto;
+  background: url(../images/github.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=style.min.css.map */
