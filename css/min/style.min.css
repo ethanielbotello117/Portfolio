@@ -197,7 +197,7 @@
 .bg2 {
   height: 120px;
   margin: 0 auto;
-  background: url(images/);
+  background: url(../images/github.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -210,5 +210,37 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.arrow-up {
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  height: 75px;
+  width: 75px;
+  position: fixed;
+  background-color: aqua;
+  border-radius: 40px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.arrow {
+  padding-top: 20px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  margin: 0 auto;
+}
+
+.material-icons {
+  text-decoration: none;
+  font-family: 'Material Icons';
+  font-size: 35px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=style.min.css.map */
