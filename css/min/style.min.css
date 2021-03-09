@@ -10,6 +10,12 @@
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  background-color: #242424;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .parallax-tile .parallax {
   height: 500px;
   background-attachment: fixed;
@@ -169,7 +175,7 @@
           justify-content: space-evenly;
 }
 
-.contact .material-icons-filled {
+.contact .material-icons-sharp {
   text-align: center;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -177,11 +183,11 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  font-family: "Material Icons";
   font-size: 100px;
 }
 
 .contact .contact-text {
+  padding-top: 20px;
   font-size: 20px;
 }
 
@@ -220,7 +226,7 @@
   position: fixed;
   background-color: aqua;
   border-radius: 40px;
-  bottom: 20px;
+  bottom: -100px;
   right: 20px;
 }
 
@@ -244,6 +250,13 @@
   padding: 0;
 }
 
+.section-title {
+  opacity: 0;
+  padding-left: 300px;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
 .progress {
   height: 40px;
   font-family: "Open Sans", sans-serif;
@@ -253,16 +266,27 @@
 }
 
 .progress .skill {
+  opacity: 0;
   margin-left: 10px;
   position: absolute;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .progress .progress-bar {
+  opacity: 0;
   background-color: aqua;
   text-align: right;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding-right: 100px;
 }
 
 .progress .progress-bar h6 {
   margin-right: 5px;
+}
+
+.brightness:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.min.css.map */
