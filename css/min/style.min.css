@@ -290,6 +290,35 @@ body {
   margin-right: 5px;
 }
 
+.about-section {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.about-section .about-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80%;
+  width: 100%;
+  background-color: aqua;
+}
+
+.about-section .about-container .image-container {
+  width: 30%;
+  height: 100%;
+  background-color: aquamarine;
+}
+
+.about-section .about-container .description-container {
+  height: 100%;
+  width: 70%;
+}
+
 .brightness:hover {
   cursor: pointer;
 }

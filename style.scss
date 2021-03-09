@@ -234,6 +234,30 @@ body{
     }
 }
 
+.about-section{
+    width: 100%;
+    height: fit-content;
+    .about-container{
+        margin: {
+            top: 30px;
+            bottom: 30px;
+        }
+        display: flex;
+        height: 80%;
+        width: 100%;
+        background-color: aqua;
+        .image-container{
+            width: 30%;
+            height: 100%;
+            background-color: aquamarine;
+        }
+        .description-container{
+            height: 100%;
+            width: 70%;
+        }
+    }
+}
+
 .brightness{
     &:hover{
         cursor: pointer;
