@@ -258,6 +258,10 @@ body {
   transition: 0.5s ease-out;
 }
 
+.container {
+  overflow: hidden;
+}
+
 .progress {
   height: 40px;
   font-family: "Open Sans", sans-serif;
