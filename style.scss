@@ -14,6 +14,48 @@ body{
     transition: 0.3s;
 }
 
+.activate{
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+    .buttoncontainer{
+        height: 75px;
+        width: 75px;
+        position: fixed;
+        background-color: aqua;
+        border-radius: 40px;
+        top: 250px;
+        right:  -100px;
+        cursor: pointer;
+        transition: 0.3s;
+        .icon{
+            padding-top: 14px;
+            height: max-content;
+            width: max-content;
+            margin: 0 auto;
+            .material-icons-sharp{
+                font-size: 43px;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+
+    #workNav{
+        top: 250px;
+        right: -100px;
+    }
+
+    #contactNav{
+        
+    }
+
 .parallax-tile {
     .parallax {
         height: 500px;
@@ -21,7 +63,7 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url(../images/pexels-stas-knop-1626481.jpg);
+        // background-image: url(../images/pexels-stas-knop-1626481.jpg);
         h1 {
             padding: 200px 18px 18px 18px;
             font-family: "Open Sans", sans-serif;
@@ -55,10 +97,11 @@ body{
         .linkbox {
             height: 100%;
             width: 100%;
-            background: url("../images/pexels-sunyu-kim-1294671.jpg");
+            // background: url("../images/pexels-sunyu-kim-1294671.jpg");
             background-size: cover;
             background-position: center;
             transition: 0.5s;
+            background-color: aquamarine;
             .link {
                 width: fit-content;
                 height: fit-content;
@@ -82,60 +125,61 @@ body{
 
 // ALL CURENT IMAGES USED ARE PLACEHOLDERS
 
-#link1 {
-    background: url(../images/link1.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 0.5s;
-}
-#link2 {
-    background: url(../images/link2.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 0.5s;
-}
-#link3 {
-    background: url(../images/link3.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 0.5s;
-}
-#link4 {
-    background: url(../images/link4.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 0.5s;
-}
-#link5 {
-    background: url(../images/link5.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 0.5s;
-}
-#link6 {
-    background: url(../images/link6.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 0.5s;
-}
-#link7 {
-    background: url(../images/link7.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 0.5s;
-}
-#link8 {
-    background: url(../images/link8.jpg);
-    background-size: cover;
-    background-position: center;
-    transition: 0.5s;
-}
+// #link1 {
+//     background: url(../images/link1.jpg);
+//     background-size: cover;
+//     background-position: center;
+//     transition: 0.5s;
+// }
+// #link2 {
+//     background: url(../images/link2.jpg);
+//     background-size: cover;
+//     background-position: center;
+//     transition: 0.5s;
+// }
+// #link3 {
+//     background: url(../images/link3.jpg);
+//     background-size: cover;
+//     background-position: center;
+//     transition: 0.5s;
+// }
+// #link4 {
+//     background: url(../images/link4.jpg);
+//     background-size: cover;
+//     background-position: center;
+//     transition: 0.5s;
+// }
+// #link5 {
+//     background: url(../images/link5.jpg);
+//     background-size: cover;
+//     background-position: center;
+//     transition: 0.5s;
+// }
+// #link6 {
+//     background: url(../images/link6.jpg);
+//     background-size: cover;
+//     background-position: center;
+//     transition: 0.5s;
+// }
+// #link7 {
+//     background: url(../images/link7.jpg);
+//     background-size: cover;
+//     background-position: center;
+//     transition: 0.5s;
+// }
+// #link8 {
+//     background: url(../images/link8.jpg);
+//     background-size: cover;
+//     background-position: center;
+//     transition: 0.5s;
+// }
 
 .contact {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     .material-icons-sharp {
+        user-select: none;
         text-align: center;
         height: fit-content;
         width: fit-content;
@@ -145,31 +189,6 @@ body{
         padding-top: 20px;
         font-size: 20px;
     }
-}
-
-.bg1 {
-    height: 120px;
-    margin: 0 auto;
-    background: url(../images/github.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.bg2 {
-    height: 120px;
-    margin: 0 auto;
-    background: url(../images/github.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.bg3 {
-    height: 120px;
-    margin: 0 auto;
-    background: url(../images/github.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .arrow-up{
@@ -235,25 +254,12 @@ body{
 }
 
 .about-section{
-    width: 100%;
-    height: fit-content;
     .about-container{
-        margin: {
-            top: 30px;
-            bottom: 30px;
-        }
         display: flex;
-        height: 80%;
-        width: 100%;
-        background-color: aqua;
-        .image-container{
-            width: 30%;
-            height: 100%;
-            background-color: aquamarine;
-        }
-        .description-container{
-            height: 100%;
-            width: 70%;
+        img{
+            display: flex;
+            max-width: 30%;
+            height: auto;
         }
     }
 }

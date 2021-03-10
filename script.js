@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        if ($(this).scrollTop() > 700){
+        if ($(this).scrollTop() > 300){
             $(".arrow-up").css({"bottom" : "20px"})
         } else {
             $(".arrow-up").css({"bottom" : "-100px"})
@@ -39,4 +39,29 @@ $(document).ready(function(){
     }
 
     $('#modeSwitch').on('click', switchMode);
+
+    function top(){
+        document.getElementById( 'contact' ).scrollIntoView();
+    }
+
+    let toggle = true;
+
+    function nav(){
+        if(toggle){
+            toggle = false;
+            $(".buttoncontainer").css({"right" : "20px"});
+        }else{
+            toggle = true;
+            $(".buttoncontainer").css({"right" : "-100px"});
+        }
+    }
+
+    $('#contactNav').on('click', top);
+    $('#activate').on('mouseover', nav);
 })
+
+// function about() {
+//     document.getElementById( 'about' ).scrollIntoView();
+// };
+
+// about();
