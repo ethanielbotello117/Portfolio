@@ -40,7 +40,13 @@ $(document).ready(function(){
 
     $('#modeSwitch').on('click', switchMode);
 
-    function top(){
+    function home(){
+        document.getElementById( 'home' ).scrollIntoView();
+    }
+    function work(){
+        document.getElementById( 'work' ).scrollIntoView();
+    }
+    function contact(){
         document.getElementById( 'contact' ).scrollIntoView();
     }
 
@@ -70,12 +76,9 @@ $(document).ready(function(){
         }
     }
 
-    $('#contactNav').on('click', top);
+    $('#homeNav').on('click', home);
+    $('#workNav').on('click', work);
+    $('#contactNav').on('click', contact);
+
     $('#activate').on('click', nav);
 })
-
-// function about() {
-//     document.getElementById( 'about' ).scrollIntoView();
-// };
-
-// about();

@@ -171,6 +171,70 @@ body {
   opacity: 90%;
 }
 
+#link1 {
+  background: url(../images/link1.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#link2 {
+  background: url(../images/link2.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#link3 {
+  background: url(../images/link3.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#link4 {
+  background: url(../images/link4.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#link5 {
+  background: url(../images/link5.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#link6 {
+  background: url(../images/link6.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#link7 {
+  background: url(../images/link7.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#link8 {
+  background: url(../images/link8.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
