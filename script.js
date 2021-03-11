@@ -45,19 +45,33 @@ $(document).ready(function(){
     }
 
     let toggle = true;
+    let timer;
 
     function nav(){
         if(toggle){
             toggle = false;
             $(".buttoncontainer").css({"right" : "20px"});
+            $("#activeOff").css({"right" : "-100px"});
+            $("#activeOn").css({"right" : "20px"});
+            timer = setTimeout(function () {
+                $("#workNav").css({"top" : "350px"});
+                $("#contactNav").css({"top" : "450px"});
+            }, 350)
+
         }else{
             toggle = true;
-            $(".buttoncontainer").css({"right" : "-100px"});
+            $("#workNav").css({"top" : "250px"});
+            $("#contactNav").css({"top" : "250px"});
+            $("#activeOff").css({"right" : "20px"});
+            $("#activeOn").css({"right" : "-100px"});
+            timer = setTimeout(function () {
+                $(".buttoncontainer").css({"right" : "-100px"});
+            }, 350)
         }
     }
 
     $('#contactNav').on('click', top);
-    $('#activate').on('mouseover', nav);
+    $('#activate').on('click', nav);
 })
 
 // function about() {
