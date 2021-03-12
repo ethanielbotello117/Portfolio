@@ -94,6 +94,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url(../images/pexels-stas-knop-1626481.jpg);
 }
 
 .parallax-tile .parallax h1 {
