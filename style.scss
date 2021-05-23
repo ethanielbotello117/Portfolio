@@ -72,7 +72,7 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url(../images/pexels-stas-knop-1626481.jpg);
+        // background-image: url(../images/pexels-stas-knop-1626481.jpg);
         h1 {
             padding: 200px 18px 18px 18px;
             font-family: "Open Sans", sans-serif;
@@ -110,7 +110,7 @@ body{
             background-size: cover;
             background-position: center;
             transition: 0.5s;
-            background-color: aquamarine;
+            background-color: rgb(122, 122, 122);
             .link {
                 width: fit-content;
                 height: fit-content;
@@ -135,52 +135,61 @@ body{
 // ALL CURENT IMAGES USED ARE PLACEHOLDERS
 
 #link1 {
-    background: url(../images/link1.jpg);
-    background-size: cover;
+    background: url(../images/stopwatch.png);
+    background-size: contain;
     background-position: center;
     transition: 0.5s;
+    background-repeat: no-repeat;
 }
+
 #link2 {
-    background: url(../images/link2.jpg);
+    background: url(../images/tictactoe.jpg);
     background-size: cover;
     background-position: center;
     transition: 0.5s;
+    background-repeat: no-repeat;
 }
 #link3 {
-    background: url(../images/link3.jpg);
+    background: url(../images/pokeball.jpg);
     background-size: cover;
     background-position: center;
     transition: 0.5s;
+    background-repeat: no-repeat;
 }
 #link4 {
-    background: url(../images/link4.jpg);
-    background-size: cover;
+    background: url(../images/logo.svg);
+    background-size: contain;
     background-position: center;
     transition: 0.5s;
+    background-repeat: no-repeat;
 }
 #link5 {
-    background: url(../images/link5.jpg);
-    background-size: cover;
+    background: url(../images/github.png);
+    background-size: contain;
     background-position: center;
     transition: 0.5s;
+    background-repeat: no-repeat;
 }
 #link6 {
-    background: url(../images/link6.jpg);
-    background-size: cover;
+    background: url(../images/github.png);
+    background-size: contain;
     background-position: center;
     transition: 0.5s;
+    background-repeat: no-repeat;
 }
 #link7 {
-    background: url(../images/link7.jpg);
-    background-size: cover;
+    background: url(../images/github.png);
+    background-size: contain;
     background-position: center;
     transition: 0.5s;
+    background-repeat: no-repeat;
 }
 #link8 {
-    background: url(../images/link8.jpg);
-    background-size: cover;
+    background: url(../images/kitsunesymbol.png);
+    background-size: contain;
     background-position: center;
     transition: 0.5s;
+    background-repeat: no-repeat;
 }
 
 .contact {

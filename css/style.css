@@ -3,8 +3,7 @@
 *::before {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Inconsolata", monospace;
   color: white;
   font-family: "Open Sans", sans-serif;
@@ -12,7 +11,6 @@
 
 body {
   background-color: #242424;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -25,20 +23,12 @@ body {
   right: 20px;
   top: 40px;
   cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  -webkit-transition: 0.5s ease-out;
+  user-select: none;
   transition: 0.5s ease-out;
 }
 
 .toggler .toggle-icon {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
 }
@@ -62,21 +52,13 @@ body {
   top: 250px;
   right: -100px;
   cursor: pointer;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 
 .buttoncontainer .icon {
   padding-top: 14px;
-  height: -webkit-max-content;
-  height: -moz-max-content;
   height: max-content;
-  width: -webkit-max-content;
-  width: -moz-max-content;
   width: max-content;
   margin: 0 auto;
 }
@@ -94,7 +76,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/pexels-stas-knop-1626481.jpg);
 }
 
 .parallax-tile .parallax h1 {
@@ -114,14 +95,9 @@ body {
 }
 
 .sitescontainer {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -141,23 +117,17 @@ body {
   width: 100%;
   background-size: cover;
   background-position: center;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
-  background-color: aquamarine;
+  background-color: #7a7a7a;
 }
 
 .sitescontainer .boxcontainer .linkbox .link {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
 }
 
 .sitescontainer .boxcontainer .linkbox h1 {
   opacity: 0%;
-  -webkit-transition: 0.2s;
   transition: 0.2s;
   padding: 15px;
   background-color: aqua;
@@ -173,91 +143,79 @@ body {
 }
 
 #link1 {
-  background: url(../images/link1.jpg);
-  background-size: cover;
+  background: url(../images/stopwatch.png);
+  background-size: contain;
   background-position: center;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
+  background-repeat: no-repeat;
 }
 
 #link2 {
-  background: url(../images/link2.jpg);
+  background: url(../images/tictactoe.jpg);
   background-size: cover;
   background-position: center;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
+  background-repeat: no-repeat;
 }
 
 #link3 {
-  background: url(../images/link3.jpg);
+  background: url(../images/pokeball.jpg);
   background-size: cover;
   background-position: center;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
+  background-repeat: no-repeat;
 }
 
 #link4 {
-  background: url(../images/link4.jpg);
-  background-size: cover;
+  background: url(../images/logo.svg);
+  background-size: contain;
   background-position: center;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
+  background-repeat: no-repeat;
 }
 
 #link5 {
-  background: url(../images/link5.jpg);
-  background-size: cover;
+  background: url(../images/github.png);
+  background-size: contain;
   background-position: center;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
+  background-repeat: no-repeat;
 }
 
 #link6 {
-  background: url(../images/link6.jpg);
-  background-size: cover;
+  background: url(../images/github.png);
+  background-size: contain;
   background-position: center;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
+  background-repeat: no-repeat;
 }
 
 #link7 {
-  background: url(../images/link7.jpg);
-  background-size: cover;
+  background: url(../images/github.png);
+  background-size: contain;
   background-position: center;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
+  background-repeat: no-repeat;
 }
 
 #link8 {
-  background: url(../images/link8.jpg);
-  background-size: cover;
+  background: url(../images/kitsunesymbol.png);
+  background-size: contain;
   background-position: center;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
+  background-repeat: no-repeat;
 }
 
 .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .contact .material-icons-sharp {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   text-align: center;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   font-size: 100px;
 }
@@ -268,7 +226,6 @@ body {
 }
 
 .arrow-up {
-  -webkit-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
   height: 75px;
   width: 75px;
@@ -281,11 +238,7 @@ body {
 
 .arrow {
   padding-top: 20px;
-  height: -webkit-min-content;
-  height: -moz-min-content;
   height: min-content;
-  width: -webkit-min-content;
-  width: -moz-min-content;
   width: min-content;
   margin: 0 auto;
 }
@@ -302,7 +255,6 @@ body {
 .section-title {
   opacity: 0;
   padding-left: 300px;
-  -webkit-transition: 0.5s ease-out;
   transition: 0.5s ease-out;
 }
 
@@ -322,7 +274,6 @@ body {
   opacity: 0;
   margin-left: 10px;
   position: absolute;
-  -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
 }
 
@@ -330,7 +281,6 @@ body {
   opacity: 0;
   background-color: aqua;
   text-align: right;
-  -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   padding-right: 100px;
 }
@@ -340,14 +290,10 @@ body {
 }
 
 .about-section .about-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .about-section .about-container img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   max-width: 30%;
   height: auto;
