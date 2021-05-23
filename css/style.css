@@ -73,6 +73,7 @@ body {
 .parallax-tile .parallax {
   height: 500px;
   background-attachment: fixed;
+  background: url("../images/link4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

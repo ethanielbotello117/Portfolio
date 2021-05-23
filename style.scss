@@ -69,10 +69,10 @@ body{
     .parallax {
         height: 500px;
         background-attachment: fixed;
+        background: url("../images/link4.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        // background-image: url(../images/pexels-stas-knop-1626481.jpg);
         h1 {
             padding: 200px 18px 18px 18px;
             font-family: "Open Sans", sans-serif;
@@ -106,7 +106,6 @@ body{
         .linkbox {
             height: 100%;
             width: 100%;
-            // background: url("../images/pexels-sunyu-kim-1294671.jpg");
             background-size: cover;
             background-position: center;
             transition: 0.5s;
